@@ -20,7 +20,6 @@ namespace Nexus_V1._0
         private void Hub_Load(object sender, EventArgs e)
         {
             // Buttons Begin
-            List<string> Values = ChaosUnbound.ListTopics(0);
 
             List<Button> Buttons = new List<Button>();
             Buttons.Add(Btn1);
@@ -38,12 +37,6 @@ namespace Nexus_V1._0
             Buttons.Add(Btn13);
             Buttons.Add(Btn14);
 
-            int CurrentButton = 0;
-            foreach (var Val in Values)
-            {
-                Buttons[CurrentButton].Text = Val;
-                CurrentButton++;
-            }
             // Buttons End
             
             BtnBack.Enabled = false;
