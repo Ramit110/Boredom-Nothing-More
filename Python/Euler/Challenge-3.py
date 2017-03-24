@@ -10,7 +10,6 @@ def Chal3(limit): #Find The Largest Prime Factor Of 'limit' (if there is one)
 				TempFactor.append(z)
 		if(len(TempFactor)==2):
 			PFactor, TempFactor = TempFactor[1], []
-		
 	return PFactor
 
 # print(Chal3(600851475143))
