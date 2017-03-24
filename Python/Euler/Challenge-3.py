@@ -8,9 +8,8 @@ def Chal3(limit): #Find The Largest Prime Factor Of 'limit' (if there is one)
 		for z in range(1,int(Factors[y]**0.5)):
 			if((Factors[y]%z)==0):
 				TempFactor.append(z)
-			if(len(TempFactor)==2):
-				PFactor = TempFactor[1]
-				TempFactor = []
+		if(len(TempFactor)==2):
+			PFactor, TempFactor = TempFactor[1], []
 		
 	return PFactor
 
