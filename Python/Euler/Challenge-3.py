@@ -1,7 +1,5 @@
 def Chal3(limit): #Find The Largest Prime Factor Of 'limit' (if there is one)
-	Factors = []
-        TempFactor = []
-	PFactor = 0
+	Factors, TempFactor, PFactor = [], [], 0
 	for x in range(1,int(limit**0.5)):
 		if((limit%x)==0):
 			Factors.append(x)
