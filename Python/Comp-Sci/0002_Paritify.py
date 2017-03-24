@@ -24,6 +24,3 @@ def CheckParity(Bits, Mode):
             return True
         return False
     return "ERROR"
-
-print(Paritify("1101",1))
-print(CheckParity("11011", 1))
