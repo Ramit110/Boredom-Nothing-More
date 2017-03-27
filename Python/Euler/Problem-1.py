@@ -6,4 +6,3 @@ def Chal1(limit): #Add All Multiples Of 3 And 5 UIntil 'limit'
 	return sum(TBR)
 
 print(Chal1(1000))
-
