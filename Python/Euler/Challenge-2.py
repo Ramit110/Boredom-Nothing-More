@@ -1,6 +1,5 @@
 def Chal2(limit): #Add All Even Fibionacci Numbers Until 'limit'
-	TBR = 0
-	Sequences = [1,2]
+	TBR, Sequences = 0, [1,2]
 	while(max(Sequences) < limit):
 		Sequences.append(Sequences[len(Sequences)-1] + Sequences[len(Sequences)-2])
 
