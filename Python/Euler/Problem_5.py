@@ -1,15 +1,22 @@
 Mathses = __import__("Euler_Lib")
-
+'''
+REDUNDANT
 def Chal5(limit):# Finds the smallest multiple beteen 1 and 'limit'
     Factors, FinalMult, TBR = Mathses.Factorify(limit), {}, 1
-    for x in range(0, len(Factors)-1):
-        temp, num = Factors[x], 1
-        while(Mathses.IfPrime(int(temp)) == False):
-            temp = int(temp**0.5)
-            num+=1
-        FinalMult[temp] = int(num)
-    for x in len(FinalMult.values():
-        TBR*=(x[0]**x[1])
+    for x in range(1, limit):
+        if(Mathses.IfPrime(x) == True):
+            FinalMult[x] = 1
+        elif(Mathses.IfNormalRoot(x) == True):
+            temp = x
+            temp=int(temp**0.5)
+            while(Mathses.IfNormalRoot(temp) == True):
+                temp=int(temp**0.5)
+            FinalMult[temp] = FinalMult[temp]+1
+    for k, v in FinalMult.items():
+        TBR*=int(Mathses.Powerify(k, v))
     return TBR
+'''
 
+def Chal5(Num1):
+    return Num1
 print(Chal5(10))
