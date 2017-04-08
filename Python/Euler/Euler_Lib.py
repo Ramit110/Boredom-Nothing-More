@@ -18,11 +18,11 @@ def Factorify(Num1):
             Factors.append(int(Num1/x))
     return Factors
 
-def IfNormalRoot(Num1):
+def IfNormalRoot(Num1, Power):
     Count=0
-    while(str(Num1**0.5)[Count] != "."):
+    while(str(Num1**(1/Power))[Count] != "."):
         Count+=1
-    if(((Count+2)>=len(str(Num1**0.5))) & (str(Num1**0.5)[Count+1] == "0")):
+    if(((Count+2)>=len(str(Num1**(1/Power))) & (str(Num1**(1/Power))[Count+1] == "0")):
         return True
     return False
 

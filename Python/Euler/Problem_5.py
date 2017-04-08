@@ -1,6 +1,6 @@
 Mathses = __import__("Euler_Lib")
+
 '''
-REDUNDANT
 def Chal5(limit):# Finds the smallest multiple beteen 1 and 'limit'
     Factors, FinalMult, TBR = Mathses.Factorify(limit), {}, 1
     for x in range(1, limit):
@@ -17,6 +17,8 @@ def Chal5(limit):# Finds the smallest multiple beteen 1 and 'limit'
     return TBR
 '''
 
-def Chal5(Num1):
+def Chal5(limit):
+    Factors = Mathes.Fectorify(limit)
     return Num1
+
 print(Chal5(10))

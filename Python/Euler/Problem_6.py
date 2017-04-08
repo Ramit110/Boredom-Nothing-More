@@ -6,6 +6,6 @@ def Chal6(limit):# returns the difference of the sum and squares of all natural 
         sqr+=int(Mathses.Powerify(x, 2))
         tot+=int(x)
     tot=int(Mathses.Powerify(tot, 2))
-    return(int(tot)-int(sqr))
+    return (int(tot)-int(sqr))
 
 print(Chal6(100))
