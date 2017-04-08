@@ -65,7 +65,6 @@
             this.Btn1.Name = "Btn1";
             this.Btn1.Size = new System.Drawing.Size(450, 50);
             this.Btn1.TabIndex = 1;
-            this.Btn1.Text = "";
             this.Btn1.UseVisualStyleBackColor = true;
             // 
             // Btn2
@@ -74,7 +73,6 @@
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(450, 50);
             this.Btn2.TabIndex = 2;
-            this.Btn2.Text = "";
             this.Btn2.UseVisualStyleBackColor = true;
             // 
             // Btn4
@@ -83,7 +81,6 @@
             this.Btn4.Name = "Btn4";
             this.Btn4.Size = new System.Drawing.Size(450, 50);
             this.Btn4.TabIndex = 4;
-            this.Btn4.Text = "";
             this.Btn4.UseVisualStyleBackColor = true;
             // 
             // Btn3
@@ -92,7 +89,6 @@
             this.Btn3.Name = "Btn3";
             this.Btn3.Size = new System.Drawing.Size(450, 50);
             this.Btn3.TabIndex = 3;
-            this.Btn3.Text = "";
             this.Btn3.UseVisualStyleBackColor = true;
             // 
             // Btn6
@@ -101,7 +97,6 @@
             this.Btn6.Name = "Btn6";
             this.Btn6.Size = new System.Drawing.Size(450, 50);
             this.Btn6.TabIndex = 6;
-            this.Btn6.Text = "";
             this.Btn6.UseVisualStyleBackColor = true;
             // 
             // Btn5
@@ -110,7 +105,6 @@
             this.Btn5.Name = "Btn5";
             this.Btn5.Size = new System.Drawing.Size(450, 50);
             this.Btn5.TabIndex = 5;
-            this.Btn5.Text = "";
             this.Btn5.UseVisualStyleBackColor = true;
             // 
             // Btn8
@@ -119,7 +113,6 @@
             this.Btn8.Name = "Btn8";
             this.Btn8.Size = new System.Drawing.Size(450, 50);
             this.Btn8.TabIndex = 8;
-            this.Btn8.Text = "";
             this.Btn8.UseVisualStyleBackColor = true;
             // 
             // Btn7
@@ -128,7 +121,6 @@
             this.Btn7.Name = "Btn7";
             this.Btn7.Size = new System.Drawing.Size(450, 50);
             this.Btn7.TabIndex = 7;
-            this.Btn7.Text = "";
             this.Btn7.UseVisualStyleBackColor = true;
             // 
             // Btn10
@@ -137,7 +129,6 @@
             this.Btn10.Name = "Btn10";
             this.Btn10.Size = new System.Drawing.Size(450, 50);
             this.Btn10.TabIndex = 10;
-            this.Btn10.Text = "";
             this.Btn10.UseVisualStyleBackColor = true;
             // 
             // Btn9
@@ -146,7 +137,6 @@
             this.Btn9.Name = "Btn9";
             this.Btn9.Size = new System.Drawing.Size(450, 50);
             this.Btn9.TabIndex = 9;
-            this.Btn9.Text = "";
             this.Btn9.UseVisualStyleBackColor = true;
             // 
             // Btn12
@@ -155,7 +145,6 @@
             this.Btn12.Name = "Btn12";
             this.Btn12.Size = new System.Drawing.Size(450, 50);
             this.Btn12.TabIndex = 12;
-            this.Btn12.Text = "";
             this.Btn12.UseVisualStyleBackColor = true;
             // 
             // Btn11
@@ -164,7 +153,6 @@
             this.Btn11.Name = "Btn11";
             this.Btn11.Size = new System.Drawing.Size(450, 50);
             this.Btn11.TabIndex = 11;
-            this.Btn11.Text = "";
             this.Btn11.UseVisualStyleBackColor = true;
             // 
             // Btn14
@@ -173,7 +161,6 @@
             this.Btn14.Name = "Btn14";
             this.Btn14.Size = new System.Drawing.Size(450, 50);
             this.Btn14.TabIndex = 14;
-            this.Btn14.Text = "";
             this.Btn14.UseVisualStyleBackColor = true;
             // 
             // Btn13
@@ -182,7 +169,6 @@
             this.Btn13.Name = "Btn13";
             this.Btn13.Size = new System.Drawing.Size(450, 50);
             this.Btn13.TabIndex = 13;
-            this.Btn13.Text = "";
             this.Btn13.UseVisualStyleBackColor = true;
             // 
             // BtnForwards
@@ -193,6 +179,7 @@
             this.BtnForwards.TabIndex = 16;
             this.BtnForwards.Text = "Next Page";
             this.BtnForwards.UseVisualStyleBackColor = true;
+            this.BtnForwards.Click += new System.EventHandler(this.BtnForwards_Click);
             // 
             // BtnBack
             // 
@@ -202,6 +189,7 @@
             this.BtnBack.TabIndex = 15;
             this.BtnBack.Text = "Previous Page";
             this.BtnBack.UseVisualStyleBackColor = true;
+            this.BtnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
             // Hub
             // 
