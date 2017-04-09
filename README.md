@@ -9,7 +9,7 @@ FILES STARTING WITH '???' COMMENTED ARE STILL IN PROGRESS
 
 C# projects:
 * Nexus - A Button Based Menu System For Windows Forms Applications Using .NET Framework 4.5.2(Untested With Other Versions)
-  * Wil Contain/Contains All My C# Projects With Some Sort Of Organised Menu System
+  * Will Contain/Contains All My C# Projects With Some Sort Of Organised Menu System
 
 Python projects:
 * Project Euler Problems - My Own Way Of Solving The Project Euler Problems.
