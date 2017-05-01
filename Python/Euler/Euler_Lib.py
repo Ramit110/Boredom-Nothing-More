@@ -22,7 +22,7 @@ def IfNormalRoot(Num1, Power):
     Count=0
     while(str(Num1**(1/Power))[Count] != "."):
         Count+=1
-    if(((Count+2)>=len(str(Num1**(1/Power))) & (str(Num1**(1/Power))[Count+1] == "0")):
+    if(((Count+2)>=len(str(Num1**(1/Power)))) & (str(Num1**(1/Power))[Count+1] == "0")):
         return True
     return False
 

@@ -1,6 +1,6 @@
 Mathses = __import__("Euler_Lib")
 
-def Chal8(limit):# finds all
+def Chal9(limit):# finds all
     for a in range(1,limit):
         for b in range(a,limit):
             for c in range(b,limit):
@@ -8,4 +8,4 @@ def Chal8(limit):# finds all
                    return (a*b*c)
     return 0
 
-print(Chal8(1000))
+print(Chal9(1000))
