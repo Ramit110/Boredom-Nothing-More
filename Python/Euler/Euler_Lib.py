@@ -12,17 +12,18 @@ def Powerify(Num1, Power):
 
 def Factorify(Num1):
     Factors = []
+    a = Factors.append
     for x in range(1, int(Num1**0.5)+1):
         if ((Num1%x)==0):
-            Factors.append(int(x))
-            Factors.append(int(Num1/x))
+            a(int(x))
+            a(int(Num1/x))
     return Factors
 
 def IfNormalRoot(Num1, Power):
     Count=0
     while(str(Num1**(1/Power))[Count] != "."):
         Count+=1
-    if(((Count+2)>=len(str(Num1**(1/Power)))) & (str(Num1**(1/Power))[Count+1] == "0")):
+    if(((Count+2)>=len(str(Num1**(1/Power))) & (str(Num1**(1/Power))[Count+1] == "0"))):
         return True
     return False
 
