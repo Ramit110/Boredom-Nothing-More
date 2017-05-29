@@ -24,17 +24,11 @@ def IfNormalRoot(Num1, Power):
     Count=0
     while(str(Num1**(1/Power))[Count] != "."):
         Count+=1
-    if(((Count+2)>=len(str(Num1**(1/Power))) & (str(Num1**(1/Power))[Count+1] == "0"))):
-        return True
-    return False
+    return ((Count+2)>=len(str(Num1**(1/Power))) & (str(Num1**(1/Power))[Count+1] == "0"))
 
 def IfPrime(Num1):
-    if (len(Factorify(Num1)) <= 2):
-        return True
-    return False
+    return len(Factorify(Num1)) == 2
 
 def IfPalindome(Num1):
-    if(str(Num1) == str(Num1)[::-1]):
-        return True
-    return False
+    return str(Num1) == str(Num1)[::-1]
 
