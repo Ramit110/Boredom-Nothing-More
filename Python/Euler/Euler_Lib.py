@@ -18,7 +18,7 @@ def Pascalify(Num1):
             p(TBR[x-1][y-1]+TBR[x-1][y])
         p(1)
         a(temp)
-    return TBR
+    return TBR[Num1-1]
 
 def IfNormalRoot(Num1, Power):
     Count=0
@@ -31,4 +31,3 @@ def IfPrime(Num1):
 
 def IfPalindome(Num1):
     return str(Num1) == str(Num1)[::-1]
-
