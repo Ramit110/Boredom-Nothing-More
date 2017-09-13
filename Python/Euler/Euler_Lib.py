@@ -21,10 +21,7 @@ def Pascalify(Num1):
     return TBR[Num1-1]
 
 def IfNormalRoot(Num1, Power):
-    Count=0
-    while(str(Num1**(1/Power))[Count] != "."):
-        Count+=1
-    return ((Count+2)>=len(str(Num1**(1/Power))) & (str(Num1**(1/Power))[Count+1] == "0"))
+    return (int(Num1**(1/Power)) == (Num1**(1/Power)))
 
 def IfPrime(Num1):
     return len(Factorify(Num1)) == 2
